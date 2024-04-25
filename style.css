@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+    
+      
+}
+.container{
+    padding: 50px;
+}
+.Section-one
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
+.Section-one__contact
+{
+    text-decoration: none;
+    background-color: orangered;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+}
+.Section-one__name
+{
+    font-size: 60px;
+}
+.Section-one__role
+{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.Section-Two,.Section-Three,.Section-Four,.Section-Five
+{
+    margin-top:20px ;
+  
+}
+.Section-Two__desc,.Section-Three__desc,.Section-Four__desc,.Section-Five__desc
+{
+    margin-top: 20px;
+}
+.Section-Three{
+    background-color: #879AC4;
+    display: inline-block;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    vertical-align: top;
+    }
+    .Section-Three ul
+    {
+        list-style: none;
+    }
+    .Section-Four{
+        background-color: #C41873;
+        border-radius: 10px;
+        width: 800px;
+        height: 200px;
+        padding: 10px;
+        display: inline-block;
+        vertical-align: top;
+        }
+        .Section-Four ul
+    {
+        list-style: none;
+    }
+   .Section-Five
+   {
+    background-color: black;
+    color: white;
+    padding: 10px;
+   } 
+   .Section-Five a{
+    color: skyblue;
+   }
+   .contact-form
+   {
+    margin-top: 20px;
+   }
+   .contact-form__input,.contact-form__textarea,.contact-form__submit
+   {
+    margin-top: 10px;
+   }
+   .contact-form__input
+   {
+    padding: 10px;
+    border: none;
+    border-bottom: solid grey 1px;
+   }
+   .contact-form__textarea
+   {
+    padding: 10px;
+    border: none;
+    border: solid grey 1px;
+   }
+   .contact-form__submit
+   {
+    background-color: orangered;
+    padding-left:20px ;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+   }
+   .contact-form__submit:hover
+   {
+    border:solid greenyellow 2px;
+    background-color:blueviolet;
+   }
+  
